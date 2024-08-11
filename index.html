@@ -47,8 +47,49 @@
   </head>
   <body class="font-manrope">
     <header class="container mx-auto">
+      <!-- navbar -->
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Tea</a></li>
+              <li><a>Coffee</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">IAT Tea</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Tea</a></li>
+            <li><a>Coffee</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-gradient-right">Order</a>
+        </div>
+      </div>
+
+      <!-- banner start -->
       <div class="my-20">
-        <div class="flex justify-between items-center ml-4 flex-col lg:flex-row">
+        <div
+          class="flex justify-between items-center ml-4 flex-col lg:flex-row"
+        >
           <div>
             <h1 class="text-7xl text-[#1C1C1C] font-extrabold">
               It's good
@@ -61,7 +102,11 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn bg-gradient-to-r from-gradient-right to-gradient-end text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i></button>
+            <button
+              class="btn bg-gradient-to-r from-gradient-right to-gradient-end text-white"
+            >
+              Explore More <i class="fa-solid fa-arrow-trend-up"></i>
+            </button>
           </div>
           <div>
             <img src="images/banner.png" class="" />
@@ -119,7 +164,7 @@
               </p>
             </div>
           </div>
-          <!-- first coffee -->
+          <!-- third coffee -->
           <div class="card p-8 bg-[#F4F4F4]">
             <figure>
               <img src="images/tea-3.png" alt="Shoes" />
@@ -131,7 +176,7 @@
               </p>
             </div>
           </div>
-          <!-- first coffee -->
+          <!-- fourth coffee -->
           <div class="card p-8 bg-[#F4F4F4]">
             <figure>
               <img src="images/tea-4.png" alt="Shoes" />
@@ -146,7 +191,7 @@
         </div>
       </section>
 
-      <section class="my-24 gap-14 flex flex-col lg:flex-row flex-1">
+      <section class="my-24 gap-14 flex flex-col-reverse px-5 lg:flex-row flex-1">
         <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
           <div
             class="rounded-xl bg-gradient-to-r from-[#FF0000] to-[#FF8938] h-36 opacity-10"
@@ -204,7 +249,9 @@
               injected humour, or randomised words which don't look even
               slightly believable.
             </p>
-            <button class="btn bg-gradient-to-r from-gradient-right to-gradient-end">
+            <button
+              class="btn bg-gradient-to-r from-gradient-right to-gradient-end"
+            >
               Show All
             </button>
           </div>
@@ -272,6 +319,58 @@
           </div>
         </div>
       </section>
+
+      <section class="my-24">
+        <div class="text-center p-5 space-y-4">
+          <h2 class="text-[#1C1C1C] font-extrabold text-5xl">News & Events</h2>
+          <p class="text-[#777777] font-extrabold">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form,<br />
+            by injected humour, or randomised words which don't look even
+            slightly believable.
+          </p>
+        </div>
+
+        <div class="mt-20 grid grid-cols-1 p-8 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <!-- first card -->
+          <div class="card card-compact   shadow-xl">
+            <div class="p-5">
+              <img src="images/news-1.png" alt="Shoes" />
+            </div>
+            <div class="card-body space-y-3">
+              <p class="text-[#777777] font-medium" >Feb 05, 2027</p>
+              <h2 class="card-title text-[#1C1C1C] font-extrabold text-xl">Collecting 8 points for discount</h2>
+              <p class="text-[#777777] font-medium">IfThere are many variations of passages of Lorem Ipsum available.?</p>
+              <h1 class="text-[#1C1C1C] font-bold">Learn More</h1>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card  shadow-xl">
+            <div class="p-5">
+              <img src="images/news-2.png" alt="Shoes" />
+            </div>
+            <div class="card-body space-y-3">
+              <p class="text-[#777777] font-medium" >Feb 05, 2027</p>
+              <h2 class="card-title text-[#1C1C1C] font-extrabold text-xl">Collecting 8 points for discount</h2>
+              <p class="text-[#777777] font-medium">IfThere are many variations of passages of Lorem Ipsum available.?</p>
+              <h1 class="text-[#1C1C1C] font-bold">Learn More</h1>
+            </div>
+          </div>
+          <!-- third card -->
+          <div class="card card-compact  shadow-xl">
+            <div class="p-5">
+              <img src="images/news-3.png" alt="Shoes" />
+            </div>
+            <div class="card-body space-y-3">
+              <p class="text-[#777777] font-medium" >Feb 05, 2027</p>
+              <h2 class="card-title text-[#1C1C1C] font-extrabold text-xl">Collecting 8 points for discount</h2>
+              <p class="text-[#777777] font-medium">IfThere are many variations of passages of Lorem Ipsum available.?</p>
+              <h1 class="text-[#1C1C1C] font-bold">Learn More</h1>
+            </div>
+          </div>
+
+        </div>
+      </section>
     </main>
 
     <footer class="bg-base-200 text-base-content p-10 lg:px-32 py-10">
@@ -284,7 +383,11 @@
               placeholder="username@site.com"
               class="input input-bordered join-item"
             />
-            <button class="btn bg-gradient-to-r from-gradient-right to-gradient-end text-white">Subscribe</button>
+            <button
+              class="btn bg-gradient-to-r from-gradient-right to-gradient-end text-white"
+            >
+              Subscribe
+            </button>
           </div>
         </fieldset>
       </div>
@@ -321,7 +424,9 @@
                 placeholder="username@site.com"
                 class="bg-transparent border-b-2 border-black py-2"
               />
-              <button class="btn bg-gradient-to-r from-gradient-right to-gradient-end rounded-full">
+              <button
+                class="btn bg-gradient-to-r from-gradient-right to-gradient-end rounded-full"
+              >
                 <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
